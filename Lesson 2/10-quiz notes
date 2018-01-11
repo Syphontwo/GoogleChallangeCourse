@@ -1,0 +1,5 @@
+Quiz notes
+ must close a tag (otherwise things become children)
+ Close in order of opening
+ Make sure the tags are formatted correctly <tag> is good, <tag is wrong
+ Children cannot close their parent's tags
