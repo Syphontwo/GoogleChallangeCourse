@@ -1,0 +1,11 @@
+To guarantee proper display, make sure all HTML documents have the following bits of information.
+
+<!DOCTYPE html>
+<html>
+ <head>
+  Meta information
+ </head>
+ <body>
+  Content
+ </body>
+</html>
