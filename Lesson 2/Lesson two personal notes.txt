@@ -1,0 +1,28 @@
+OVERALL NOTES I feel are important for me
+ taking into account previous knowledge
+
+USE https://developer.mozilla.org/en-US/docs/Web/HTML/Element to tags up
+USE https://validator.w3.org/#validate_by_input to help with validation
+
+Make sure you lookup the type of tag to use
+Doc Type declaration at the top of the document.  And you don't have to close it
+
+I am learning HTML5
+
+Body is the visible section, head contains meta-data
+
+<meta charset="utf-8"> to display unicode
+<title> tag to name the page
+
+THE STANDARD BOILERPLATE!!!
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>TITLE OF PAGE</title>
+  Other Meta information such as <meta charset="utf-8">
+ </head>
+ <body>
+  All visible Content
+ </body>
+</html>
