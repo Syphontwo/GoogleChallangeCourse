@@ -1,0 +1,20 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+* What new skills have you learned?
+* What has been easy?
+* What has been difficult?
+* How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+* What new skills have you learned?
+  I never knew how simple it was to make an HTML document and run it in a browser.  I'm used to having to use a full on IDE to compile code and setting up special environments to run anything.
+  I've also learned a few "names" for things that I never knew.  I've had exposure to some basic HTML just through general programming, but "attributes" and "elements" now have a more solid ground for their definition.
+* What has been easy?
+  Honestly, I've found HTML so far to be surprisingly easy.  It is like HTML is exactly as simple as it looked.  I always thought there must be some magic trick to it, but I'm sure I'll learn some magic in the next few sections :P
+* What has been difficult?
+  The biggest struggle for me has been out of class work that I have self imposed.  Learning and maintaining the GitHub has been difficult and rewarding.
+  Since I haven't struggled with class material so far, I've been trying my best to help out my fellow classmates, answering what I can on slack and in the forums.
+* How have you used the problem solving strategies from the first project to overcome challenges so far?
+  I've noticed that everything I need to solve the problem is given to me in the problem description.  Perhaps my job as a professional data scientist has caused me to overlook simple problem solving skills that I apply, but in general I haven't encountered any specific need to seek out more intense problem solving strategies.
+  I know the first place I would look if I did need help would be Slack.  I try to be very active there, so I know where to ask for help when I need it.
+  I'm sure that future sections will have me seeking advice and help.  I feel like everything so far has been simple and straightforward, though it might be the excellent presentation and lesson pacing :P
