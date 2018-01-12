@@ -1,0 +1,11 @@
+internal paths in html files refer to their running location
+opening a webpage is just opening an HTML file on another computer
+
+the URL of a webpage can also be sued to access the "running location" of the html
+The following are equivalent if the html labs.udacity.com is in /Users/cameron/Udacity/etc/labs
+
+External:
+<a href="http://labs.udacity.com/fend/example/hello-world.html">Hello, world!</a>
+
+Local:
+<a href="/Users/cameron/Udacity/etc/labs/fend/example/hello-world.html"> Hello, world!</a>
