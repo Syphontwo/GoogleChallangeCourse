@@ -1,0 +1,4 @@
+Right click a page, inspect, see lots of stuff.  I've used this before.
+
+HTML shown in elements, click on elements to see the CSS ruleset below
+Can check and uncheck CSS properties to see how it effects the site
