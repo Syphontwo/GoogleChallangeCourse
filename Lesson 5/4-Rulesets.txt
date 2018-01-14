@@ -1,0 +1,23 @@
+CSS begins with ruleset i.e.
+
+<SELECTOR> {
+ <DECLARATION BLOCK>
+}
+
+Goes in head
+<head>
+ <style>
+ <!-- CSS HERE -->
+ </style>
+</head>
+
+Selector is the element you want to apply the style to
+<head>
+ <style>
+  p {
+   color: blue;
+  }
+ </style>
+</head>
+
+Above changes the color property of all p elements to blue
