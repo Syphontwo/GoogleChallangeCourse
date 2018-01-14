@@ -1,0 +1,35 @@
+This is unfortunately a copy paste of pertinent sections, was easier this way
+
+IN GENERAL
+right clicking will give you an option to inspect element, otherwise press F12
+
+CREDIT TO UDACTIY
+
+Google Chrome
+right-click on any page element and select Inspect
+top-right corner of your browser window and select More Tools > Developer Tools
+Command + Option + i (Mac)
+Ctrl + Shift + i (Windows/Linux).
+
+Mozilla Firefox
+right-click on any page element and select Inspect Element
+top-right corner of your browser window and select Developer
+Command + Option + i (Mac)
+Ctrl + Shift + i (Windows/Linux).
+
+Internet Explorer
+developer tools by simply pressing F12
+
+Microsoft Edge
+developer tools by simply pressing F12
+
+Safari
+right-click on any page element and select Inspect Element
+Command + Option + i.
+
+Opera
+developer tools. Named Opera Dragonfly
+right-clicking in the page and selecting Inspect Element.
+Launch Opera Dragonfly with the following keyboard shortcuts:
+Command + Option + i (Mac)
+Ctrl + Shift + i (Windows/Linux).
