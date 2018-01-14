@@ -4,4 +4,8 @@ Give HTML elements ID or class to identify them uniquely, or refer to the "tag" 
 CSS class .classname, ID #IDname
 units should always be included at the end of a number
 
+Colors in hexadecimal format can have shorthand, I personally think that is a bad idea...
+ #0000ff can be shortened to #00f
+ more shorthand https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties
+
 SPACES IN CLASS GIVE IT MULTIPLE CLASSES!!!!!!  IDs must have no spaces because an element can only have 1
