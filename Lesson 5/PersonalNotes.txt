@@ -2,5 +2,6 @@ CSS "parts" are called rulesets!!!
 CSS rulesets can go in the header under the style tag
 Give HTML elements ID or class to identify them uniquely, or refer to the "tag" to change them called
 CSS class .classname, ID #IDname
+units should always be included at the end of a number
 
 SPACES IN CLASS GIVE IT MULTIPLE CLASSES!!!!!!  IDs must have no spaces because an element can only have 1

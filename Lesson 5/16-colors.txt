@@ -1,0 +1,8 @@
+Refer to colors in
+RGB format
+ rgb(red, green, blue)
+
+Hexadecimal format
+ #redgreenblue
+
+Most browsers have a color picker, handy.  Can pick colors out of images
