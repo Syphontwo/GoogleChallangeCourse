@@ -1,0 +1,7 @@
+CSS units are
+pixles - absolute (mm, in, cm can also be used, but rare)
+percentages - relative (em, vw - viewport width, vh - viewport height)
+
+400px
+vs
+50%
