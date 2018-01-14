@@ -1,0 +1,6 @@
+adding the attribute id="IdNoSpaces" to an element gives it an ID
+ID is global, and must be unique, no spaces, use sparingly or not at all
+ use #IdNoSpaces as the SELECTOR
+
+adding the attribute class="ClassNameNoSpaces" to an element identifies it as part of a group
+ Use .ClassNameNoSpaces as the SELECTOR

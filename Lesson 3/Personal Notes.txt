@@ -1,0 +1,3 @@
+File paths start in the directory of the running HTML and do not start with /
+
+This is how you can use a local file for something like an image
