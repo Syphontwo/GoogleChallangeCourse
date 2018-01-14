@@ -1,0 +1,15 @@
+Italicize = font-style: italic
+underline = text-decoration: underline
+uppercase = text-transform: uppercase
+bold = font-weight: bold
+
+Quiz only wants the property, not the value to do it, i.e.
+Italicize = font-style
+underline = text-decoration
+uppercase = text-transform
+bold = font-weight
+
+USE THESE WEBSITES
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+https://css-tricks.com/almanac/
+https://www.w3schools.com/cssref/
