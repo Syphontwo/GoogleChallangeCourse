@@ -1,0 +1,5 @@
+Cascading
+Style
+Sheets
+
+CSS is separate from HTML, and describes how the content in HTML should look
