@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- saved from url=(0086)http://udacity.github.io/fend/lessons/L3/problem-set/08-udacity-site-header/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Udacity Site Header</title>
+  <link href="./Udacity Site Header_files/css" rel="stylesheet" type="text/css">
+  <meta name="udacity-grader" content="tests.json">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      font-weight: 800;
+      -webkit-font-smoothing: antialiased;
+
+      background: white;
+      height: 85px;
+      padding: 15px;
+    }
+    section {
+      padding: 16px;
+    }
+    .flex-container {
+      display: flex;
+    }
+    .space-between {
+      justify-content: space-between;
+    }
+    .vertical-centerer {
+      height: 100%;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .header-content {
+      width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .logo {
+      width: 500px;
+      display: inline-block;
+      margin: 10px 0px;
+    }
+    .menu {
+      list-style: none;
+      list-style-type: none;
+    }
+    .menu > li {
+      display: inline;
+      margin-left: 37.5px;
+    }
+  </style>
+<link rel="import" href="chrome-extension://melpgahbngpgnbhhccnopmlmpbmdaeoi/app/templates/feedback.html" id="udacity-test-widget"><script id="ud-grader-options">UdacityFEGradingEngine.turnOn();</script></head>
+<body>
+  <header>
+    <div class="vertical-centerer flex-container">
+      <div class="flex-container space-between header-content">
+        <div>
+          <span>
+            <img class="logo" src="./Udacity Site Header_files/Udacity_Logo_SVG_200x35.svg" alt="Udacity Logo">
+          </span>
+        </div>
+        <div>
+          <ul class="menu">
+            <li>Nanodegree</li>
+            <li>Catalog</li>
+            <li>Classroom</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <p>Ewww. The header looks weird.</p>
+
+    <p>
+      You need to use Developer Tools to edit this website and pass this quiz. Make sure you read the criteria carefully because they contain the exact CSS properties that you need to change!
+    </p>
+  </section>
+
+
+<script src="chrome-extension://melpgahbngpgnbhhccnopmlmpbmdaeoi/app/js/libs/GE.js" id="udacity-front-end-feedback"></script><script id="ud-86848724">UdacityFEGradingEngine.registerSuites("[{\n  \"name\": \"Blog Header\",\n  \"code\": \"fullsteamahead\",\n  \"tests\": [\n    {\n      \"description\": \"The header has the right text <code>color</code> (<code>#697681</code>)\",\n      \"definition\": {\n        \"nodes\": \"header\",\n        \"cssProperty\": \"color\",\n        \"equals\": \"rgb(105, 118, 129)\"\n      }\n    },\n    {\n      \"description\": \"The <code>font-weight</code> of the header text is <code>400</code>\",\n      \"definition\": {\n        \"nodes\": \"header\",\n        \"cssProperty\": \"fontWeight\",\n        \"equals\": [\n          \"400\",\n          \"normal\"\n        ]\n      }\n    },\n    {\n      \"description\": \"The <code>width</code> of the Udacity logo is <code>200px</code>\",\n      \"definition\": {\n        \"nodes\": \".logo\",\n        \"cssProperty\": \"width\",\n        \"equals\": \"200px\"\n      }\n    },\n    {\n      \"description\": \"The <code>background-color</code> of the body is <code>#ddd</code>\",\n      \"definition\": {\n        \"nodes\": \"body\",\n        \"cssProperty\": \"backgroundColor\",\n        \"equals\": \"rgb(221, 221, 221)\"\n      }\n    }\n  ]\n}]\n");</script><test-widget></test-widget></body></html>
