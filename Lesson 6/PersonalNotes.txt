@@ -1,0 +1,5 @@
+Use a CSS file like this
+
+<head>
+ <link rel="stylesheet" href="styles.css">
+</head>

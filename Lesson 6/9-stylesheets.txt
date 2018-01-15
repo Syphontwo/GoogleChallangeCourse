@@ -1,0 +1,7 @@
+Finally!  CSS was introduced as being a separate file, then most lessons had you writing it in the html...
+
+
+make a file.css (i.e. styles.css) then point to it with HTML with the following:
+<head>
+ <link rel="stylesheet" href="styles.css">
+</head>
