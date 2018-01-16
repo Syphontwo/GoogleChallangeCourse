@@ -1,0 +1,32 @@
+body {
+  background: url(https://c1.staticflickr.com/6/5127/5342742045_fdd9f9a91e_b.jpg)
+}
+h1{
+  font-size: 4em;
+}
+p{
+  font-size: 2em;
+}
+
+.text{
+ -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+ -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: black;
+}
+
+.fancy{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.simple {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.HaikuBack{
+  background-color: darkgrey;
+  display: inline-block;
+}
+
+.cursive{
+  font-family: "Brush Script MT", "Brush Script Std", cursive;
+}
