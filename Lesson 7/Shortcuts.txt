@@ -1,0 +1,17 @@
+A shortened list of shortcuts that I myself need to start using.  I already use several
+
+CTRL + D select current word
+ALT + F3 select all instances of that word and edit them all at once!!!!!
+CTRL + arrows move by word
+CTRL + M move around opening and closing braces
+CTRL + R find definition
+CTRL + / to comment and uncomment
+CTRL + P change files
+
+
+
+New Tab: Ctrl + N
+Switch Tab Left: Ctrl + PgUp
+Switch Tab Right: Ctrl + PgDn
+Close Tab: Ctrl + W
+Reopen Tab: Ctrl + ⇧ + T
