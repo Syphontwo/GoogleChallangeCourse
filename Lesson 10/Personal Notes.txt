@@ -1,0 +1,9 @@
+JavaScript invented in 1995, also usable for applications, but not original purpose.
+Java is NOT JavaScript, originally called LiveScript, JavaScript was a marketing decision.  ES5, ES6, EcmaScript, ES2016, ES2017, those are all JavaScript
+
+JavaScript Console is in Dev Tools "Console"
+
+stuff like this can run in the Console
+  for (var i = 0; i < 10; i++) {
+    console.log(i);
+  }
