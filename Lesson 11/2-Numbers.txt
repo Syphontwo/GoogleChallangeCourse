@@ -1,0 +1,3 @@
+Same comparison operators as C# (I know, it's really not that way, that's just how I can remember... Don't judge me)
+
+Number type is all positive, negative numbers and decimals.  Follows standard order of operations.
