@@ -1,0 +1,2 @@
+Strings can use either " or ' as long as they are consistent on the same Strings
+"Mikey" = 'Mikey'
