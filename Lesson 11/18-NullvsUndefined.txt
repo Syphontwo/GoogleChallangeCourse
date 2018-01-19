@@ -1,0 +1,4 @@
+Null = nothing
+Undefined = lack of anything (even nothing)
+
+Absence of value is not the same as lack of value
