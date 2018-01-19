@@ -4,3 +4,6 @@ strings are character arrays (can be used as such)
 escape character is \  as I'm used to
 
 Comparison uses the ASCII NUMERICAL VALUE of a character to compare
+
+DO NOT USE == and != for Equality BAD PRACTICE, allows coercion
+use === and !== instead
