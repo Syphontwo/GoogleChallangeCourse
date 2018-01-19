@@ -1,0 +1,4 @@
+Comparison is case sensitive
+
+Comparison uses the ASCII NUMERICAL VALUE of a character to compare
+i.e. "green" > "blue" and "blue" < "green"

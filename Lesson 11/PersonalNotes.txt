@@ -1,0 +1,6 @@
+Javascript is 0 indexed (thank goodness)
+strings are character arrays (can be used as such)
+
+escape character is \  as I'm used to
+
+Comparison uses the ASCII NUMERICAL VALUE of a character to compare
