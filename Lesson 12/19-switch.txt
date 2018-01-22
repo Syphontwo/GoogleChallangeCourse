@@ -1,0 +1,12 @@
+Switch keyword. break keyword
+
+remember that they will fall through!
+
+switch (variable){
+  case 1:
+    //do stuff
+    break;
+  case 2:
+    //do stuff
+    break;
+}
