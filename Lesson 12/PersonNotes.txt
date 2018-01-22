@@ -1,0 +1,8 @@
+if then is setup like I'm used to in C#
+
+Short Circuiting - behavior where later conditions are NOT EVALUATED because they won't matter
+
+PLEASE NOTE!!!
+
+I don't have many notes from this section because I am very familiar with this aspect of development.
+My notes will be mostly focused on the differences between JavaScript and C#, my most familiar language.
