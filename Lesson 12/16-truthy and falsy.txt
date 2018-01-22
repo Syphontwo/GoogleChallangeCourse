@@ -1,0 +1,10 @@
+all values have a truthy or falsy evaluation when evaluated as boolean
+
+ALL FALSY VALUES
+the Boolean value false
+the null type
+the undefined type
+the number 0
+the empty string ""
+the odd value NaN
+That's right, there are only six falsy values in all of JavaScript!

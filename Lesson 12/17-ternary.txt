@@ -1,0 +1,5 @@
+JavaScript also has ternary (like C#)
+conditional ? (if condition is true) : (if condition is false)
+
+Ternaries can be used like this
+console.log("It costs $" + (adult ? "40.00" : "20.00") + " to attend the concert. Pick up your tickets at the " + (preorder ? "will call" : "the gate") + ".");
