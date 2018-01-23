@@ -1,0 +1,18 @@
+var num = 99;
+
+var bottle = function(numIn){
+    var result = numIn + " bottles";
+    if (num === 1){
+        result = numIn + " bottle";
+    }
+    return result;
+}
+
+while (num >0) {
+    var lyrics = bottle(num) + " of juice on the wall! "+ bottle(num) + " of juice! Take one down, pass it around... ";
+    num -= 1;
+    lyrics +=  bottle(num) + " of juice on the wall!";
+    console.log(lyrics);
+}
+
+Wanted to save this due to the use of functions.  I added that myself, it wasn't part of the lesson.
