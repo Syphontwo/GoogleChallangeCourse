@@ -1,0 +1,21 @@
+/*
+ * Programming Quiz: JuliaJames (4-1)
+ */
+
+var x = 1;
+
+while (x <= 20) {
+    var result = "";
+    if (x % 3 === 0){
+        result += "Julia";
+    }
+    if (x % 5 === 0){
+        result += "James";
+    }
+    console.log(result ? result : x);
+    x++;
+}
+
+The use of the ternary at the end takes advantage of JavaScript coercion since "" is == false
+
+This also helps me realize that ternaries use coercion == rather than direct comparison ===
