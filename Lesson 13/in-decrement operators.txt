@@ -4,6 +4,9 @@ x++ //returns 0
 x //returns 1
 ++x //returns 2
 x //returns 2
+x -= 2 //returns 0
 
 x++ returns the value THEN increments
 ++x increments THEN returns the value
+
+shorthand operators perform the arithmetic first, then return value (like ++x)
