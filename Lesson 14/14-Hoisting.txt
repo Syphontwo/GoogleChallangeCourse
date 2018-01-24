@@ -1,0 +1,21 @@
+Hoisting - declarations are moved to the top of their scope.
+
+AS WRITTEN:
+  sayGreeting();
+
+  function sayGreeting(){
+   console.log(greeting);
+   var greeting = "hello";
+  }
+
+AS INTERPRETED:
+  function sayGreeting(){
+   var greeting;
+   console.log(greeting);
+   greeting = "hello";
+  }
+
+  sayGreeting();
+
+OUTPUT:
+ undefined
