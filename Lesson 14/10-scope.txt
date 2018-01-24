@@ -1,0 +1,10 @@
+function One(){
+ var name = "Mikey";
+ Two();
+}
+
+function Two(){
+ console.log(name); //this will print the name variable from the calling function.
+}
+
+Variable calls in a function will look within the function itself first, then move up one level in scope to find the variable until it reaches the global.
