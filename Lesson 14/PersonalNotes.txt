@@ -2,4 +2,4 @@ Functions do not need variable types... because there aren't really any types in
 
 function scope includes functions called from that function.
 
-Hoisting, declarations moved to top of scope, not their assignments though.
+Hoisting, declarations moved to top of scope, not their assignments though.  Don't forget this also applies to functions.

@@ -1,0 +1,21 @@
+var FunctionName = function(parameters){
+ //Function body
+}
+
+SAME AS
+
+function FunctionName(parameters){
+ //Function body
+}
+
+
+First one is called a Function Expression
+the second is called Function declarations
+
+Hoisting of Function Expressions only hoists the declaration of the variable, not the assignment of the associated function
+Hoisting of Function Declarations hoists the function declaration and its assignment.
+
+
+The function part of a function expression is called an anonymous expression
+
+Accessing the variable of a function expression returns the whole function

@@ -1,0 +1,14 @@
+functions stored as variables and passed into another function are called "Callbacks"
+
+variables assigned a function can also be named functions rather than anonymous, but you must call that function using the variable name not the function name
+
+Inline functions are very similar to lamba patterns in C# in behavior.
+
+EXAMPLE:
+  var ExpressionFunction = function twoParts(callbackFunction, inputVariable){
+   return callbackFunction() + inputVariable;
+  }
+
+  console.log(ExpressionFunction(function InlineFunction(){return 1; }, 2));
+
+  //PRINTS: 3
