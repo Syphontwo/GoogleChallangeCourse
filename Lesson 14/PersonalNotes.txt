@@ -1,12 +1,3 @@
 Functions do not need variable types... because there aren't really any types in JavaScript.......
 
 function scope includes functions called from that function.
-
-function One(){
- var name = "Mikey";
- Two();
-}
-
-function Two(){
- console.log(name); //this will print the name variable from the calling function.
-}

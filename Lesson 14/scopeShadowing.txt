@@ -1,0 +1,3 @@
+Inner scope changes to a variable actually change the outer scope
+
+if the variable is re-declared, even with the same name, it will NOT change the outer scope value.
