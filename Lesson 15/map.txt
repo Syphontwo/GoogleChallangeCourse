@@ -1,7 +1,7 @@
-similar to forEach, but returns a new array using the element changes from the function
+similar to forEach, but returns a new array using the element returned from the function
 
 var array = [1,2,3,4];
-var newArray = array.map(function(num){num += 1;});
+var newArray = array.map(function(num){num += 1; return num;});
 console.log(newArray);
 //logs [2,3,4,5]
 //array is still [1,2,3,4]

@@ -6,4 +6,4 @@ stack = pop
 FIFO = shift
 
 forEach can only mutate elements using the (element, index, array) array and index parameters.  The element passed in is by value, not by reference.
-map returns new array with the result of the function, doesn't touch the original.
+map returns new array with the return of the function, doesn't touch the original.
