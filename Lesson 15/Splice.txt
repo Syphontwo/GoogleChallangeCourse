@@ -1,0 +1,14 @@
+Splice specifies index location, number of elements to remove, and what starting index to add new items too
+
+Splice(startingIndex, numberOfElements, [Elements, To, Add, Starting, At, startingIndex])
+
+var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller"];
+donuts.splice(1, 1, "chocolate cruller", "creme de leche");
+// removes "chocolate frosted" at index 1, returns ["chocolate frosted"], and adds "chocolate cruller" and "creme de leche" starting at index 1
+
+Negative numbers start with that many from the end of the array
+
+var array = [1,2,3];
+array.splice(-2,0,5);
+//looks at index array.length - 2 = 1, deletes 0 elements, adds 5 at that index making this array
+//[1,5,2,3]
