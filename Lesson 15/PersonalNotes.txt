@@ -1,1 +1,6 @@
 length is property not method
+
+splice is used for manipulation like adding and deleting elements at specific places.
+
+stack = pop
+FIFO = shift

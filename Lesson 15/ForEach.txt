@@ -1,0 +1,13 @@
+Arrays have a forEach method which takes a callback
+
+the parameters of the callback are element, index, array
+
+var array = [1,2,3,4];
+array.forEach(function(num, i, arr){arr[i] += num;});
+console.log(array);
+//logs [2,4,6,8]
+
+var array = [1,2,3,4];
+array.forEach(function(num){num += 1;});
+console.log(array);
+//logs [1,2,3,4]  the num += 1 is executed on the value of the element, it does not mutate it.
