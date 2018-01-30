@@ -1,0 +1,4 @@
+myObject["key"]  this is bracket notation, a valid way of looking up a value
+myObject.key     this is dot notation, also valid
+
+object methods are just (otherwise anonymous) functions in the "value" part of the key:value pair
