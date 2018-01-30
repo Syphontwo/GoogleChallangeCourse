@@ -1,0 +1,13 @@
+declare with {}
+parts go in the brackets
+
+typeof(variable) will return "object" for objects, not the object type (like you would expect in C#))
+
+var myObject = {
+ objectColor: "blue",
+ objectNumber: 1,
+ IncrementNumber: function(){
+  myObject.objectNumber += 1;
+  return myObject.objectNumber;
+ }
+}
