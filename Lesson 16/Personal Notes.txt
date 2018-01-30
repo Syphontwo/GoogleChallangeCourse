@@ -1,2 +1,11 @@
 typeof will return "object" not the "type" of the object.
 Objects are defined as a list of key, value pairs
+
+property names follow similar to C# convention (but know that they CAN be different if surrounded by quotes)
+no hyphens
+
+both valid
+myObject["key"]
+myObject.key
+
+if there are spaces, starting with a number, or hyphens only bracket notation is usable.

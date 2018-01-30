@@ -1,0 +1,4 @@
+don't use numbers at the start of a property (key) name
+don't use spaces in property (key) names
+
+DON'T USE HYPHENS EITHER!
