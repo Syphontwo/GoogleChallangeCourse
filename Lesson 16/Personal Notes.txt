@@ -1,0 +1,2 @@
+typeof will return "object" not the "type" of the object.
+Objects are defined as a list of key, value pairs

@@ -1,0 +1,1 @@
+Objects are defined as a list of key, value pairs. Think of it like that!
