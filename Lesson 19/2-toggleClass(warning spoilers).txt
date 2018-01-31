@@ -1,0 +1,15 @@
+http://api.jquery.com/toggleClass/
+
+give it a class name, it adds if it isn't there, or removes if it is (hence toggle, not add or remove class)
+When giving the class name as the argument, don't include the . in the front
+
+
+/*
+For this quiz, use a jQuery class selector and featuredArticle variable to toggle the 'featured' class!
+*/
+
+// don't change this variable!
+var featuredArticle;
+
+featuredArticle = $('.featured');// your code starts here!
+featuredArticle.toggleClass('featured');

@@ -4,7 +4,7 @@
 .find() - like .parents, finds all children and grandchildren with an optional selector
 .siblings() - selects all items on the same level of the DOM tree with an optional selector
 
-'*' is a wildcard to select all
+'*' is a universal selector to select all of the elements
 
 /*
 For this quiz, use articleList and DOM navigation methods to collect articleList's
