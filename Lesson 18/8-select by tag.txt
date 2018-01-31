@@ -1,0 +1,7 @@
+var paragraphs = $('p');
+console.log(p);
+
+logs all the p elements
+
+that selects all p tags
+Probably don't need to select anything like this... prefer using classes or ids

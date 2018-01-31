@@ -1,2 +1,7 @@
 jQuery is a javascript library
 $ is a pointer to jQuery
+
+SELECTORS
+$('tag')
+$('.class')
+$('#id')
