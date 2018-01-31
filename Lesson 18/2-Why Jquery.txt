@@ -1,0 +1,3 @@
+jQuery is a javascript library, nothing else
+
+both a function and an object, vut it is JUST javascript
