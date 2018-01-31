@@ -1,1 +1,3 @@
 api.jquery.com
+
+selection is key, remember that sometimes, in a method, a class name doesn't need a .
