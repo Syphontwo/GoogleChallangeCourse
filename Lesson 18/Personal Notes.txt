@@ -5,3 +5,5 @@ any valid CSS selector is a valid jQuery selector
 $('tag')
 $('.class')
 $('#id')
+
+'*' is the universal selector
