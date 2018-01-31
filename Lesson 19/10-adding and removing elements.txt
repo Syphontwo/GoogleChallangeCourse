@@ -1,0 +1,6 @@
+append, preppend, insertBefore, insertAfter
+
+append and prepend, put the whole element in as text, the HTML that is
+the above add them as the first / last CHILD elements
+
+insertbefore and insertafter add them as siblings, same way of doing it
