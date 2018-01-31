@@ -1,0 +1,13 @@
+this is not recommended, but sometimes necessary (apparently)
+
+/*
+For this quiz, change the font-size of all the article-items to 20px!
+
+You must use jQuery's css() method!
+*/
+
+// Start with this variable!
+var articleItems;
+
+articleItems = $('.article-item')// your code goes here!
+articleItems.css('font-size', '20px')
