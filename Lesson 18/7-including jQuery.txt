@@ -1,0 +1,10 @@
+use a script tag.  Can use a local version on the server, but should use a Content Delivery Network CDN
+
+local
+<script src='path/jquery.min.js'></script>
+
+jQuery Official
+<script src='//code.jquery.com/jquery-VERSIONNUMBER.min.js'></script>
+
+Google CDN
+<script src='//ajax.googleapis.com/ajax/libs/jquery/VERSIONNUMBER/jquery.min.js'></script>

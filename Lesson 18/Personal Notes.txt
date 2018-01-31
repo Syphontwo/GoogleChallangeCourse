@@ -1,0 +1,2 @@
+jQuery is a javascript library
+$ is a pointer to jQuery
