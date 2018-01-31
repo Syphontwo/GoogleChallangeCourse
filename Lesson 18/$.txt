@@ -1,0 +1,3 @@
+$ is a pointer to the javaScript library jQuery
+
+$ just calls the jQuery object function ƒ (e,t){return new be.fn.init(e,t)}
