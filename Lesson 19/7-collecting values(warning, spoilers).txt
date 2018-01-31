@@ -1,0 +1,8 @@
+use .text() to get or with an argument set the text of the selected tags
+use .val() to get the value of an object like an input box
+
+$('#input').on('change', function() {
+    var val;
+    val = $('#input');
+    $('.articles').find('h1').text(val.val());
+});
