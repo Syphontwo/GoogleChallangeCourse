@@ -1,4 +1,4 @@
-no real big gotchas here, just reference code
+no real big gotchas here, just reference code.  Remove can have an optional selector as well.
 
 /*
 For this quiz, remove the <ul> from the first article item!
