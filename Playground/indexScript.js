@@ -1,1 +1,3 @@
-$( "h1" ).text( "hello world" );
+$(function(){
+  $("h1").text("hello world");
+});
