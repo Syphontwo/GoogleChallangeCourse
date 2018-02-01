@@ -1,0 +1,9 @@
+in CHROME CONSOLE ONLY use monitorEvents(elementToWatch) to see events in the console
+
+example console to watch
+
+right click on the element, click inspect
+In console monitorEvents($0)
+
+in JavaScript
+$(element).on('eventToListenFor', callbackFunction)

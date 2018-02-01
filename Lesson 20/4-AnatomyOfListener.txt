@@ -1,0 +1,3 @@
+on() method of an element is what listens
+
+$(element).on('eventToListenFor', callbackFunction)
