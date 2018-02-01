@@ -6,3 +6,6 @@ $('#family2').append("<div id='bruce'></div>");
 
 insertBefore and insertAfter add them as siblings, same way of doing it
 $("<div id='family2'></div>").insertAfter('#family1');
+
+AFTER and BEFORE have more normal syntax, act on a selector, theninsert something
+$('#family1').After("<div id='family2'></div>");
