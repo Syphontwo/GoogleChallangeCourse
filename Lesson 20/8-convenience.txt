@@ -1,0 +1,7 @@
+some events have "convenience" methods
+
+$('element').on('keypress', callback)
+can be rewritten as
+$('element').keypress(callback)
+
+oh man... do I have some words about that....

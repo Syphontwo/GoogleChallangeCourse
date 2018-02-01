@@ -7,3 +7,6 @@ In console monitorEvents($0)
 
 in JavaScript
 $(element).on('eventToListenFor', callbackFunction)
+
+
+lots of silly confusing things are done in the name of "convenience"
