@@ -1,0 +1,6 @@
+//Basic listener setup for the quiz
+
+$('#my-button').on('click', function(){
+    this.remove();
+    $('body').addClass('success');
+})
