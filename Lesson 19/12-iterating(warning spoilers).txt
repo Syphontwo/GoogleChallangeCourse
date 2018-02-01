@@ -1,0 +1,6 @@
+//this keyword is slightly different than what I'm used to.
+var paragraphs = $('p');
+
+paragraphs.each(function() {
+    $(this).text($(this).text() + $(this).text().length);
+})
