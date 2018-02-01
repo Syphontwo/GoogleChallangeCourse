@@ -1,0 +1,15 @@
+body {
+  height: 96vh;
+  width: 96vw;
+  margin: 2vh 2vw;
+}
+
+.Art{
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.canvas{
+  flex: 1 1 auto;
+}
