@@ -1,3 +1,8 @@
 api.jquery.com
 
 selection is key, remember that sometimes, in a method, a class name doesn't need a .
+
+this keyword is slightly different from what I'm used to.
+$('p').each(function(){
+ $(this).text();  //VALID USE OF THIS KEYWORD!
+})
