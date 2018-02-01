@@ -8,5 +8,9 @@ In console monitorEvents($0)
 in JavaScript
 $(element).on('eventToListenFor', callbackFunction)
 
+you can also delegate the listening on('eventToListenFor', 'element/class/id', callback)
 
-lots of silly confusing things are done in the name of "convenience"
+<ul id="rooms">
+    <li>Room 1</li>
+</ul>
+$( '#rooms li' ) will select the list items in that I

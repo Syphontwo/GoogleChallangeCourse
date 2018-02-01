@@ -1,0 +1,7 @@
+if you select elements of a class, then add another one, the original declaration isn't updated, so events won't be listened to
+
+$( '.container' ).on( 'click', 'article', function() { … });
+
+...this code tells jQuery to watch the .container element for clicks, and then if there are any, check if the click event's target is an article element.
+
+this can also be used to optimize the number of listeners.
