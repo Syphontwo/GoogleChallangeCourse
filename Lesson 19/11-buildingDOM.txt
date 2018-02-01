@@ -1,0 +1,12 @@
+var family1, family2, bruce, madison, hunter
+
+family1 = $('#family1') //existing ID
+family2 = $("<div id='family2'><h1>Family 2</h1></div>") //you can set variables to HTML elements directly
+bruce = $("<div id='bruce'><h1>Bruce</h1></div>")
+madison = $("<div id='madison'><h1>Madison</h1></div>")
+madison = $("<div id='hunter'><h1>Hunter</h1></div>")
+
+family2.insertAfter(family1); //you can then call them all by variable name
+family2.append(bruce);
+bruce.append(madison);
+bruce.append(hunter);

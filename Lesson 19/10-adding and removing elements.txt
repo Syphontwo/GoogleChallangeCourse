@@ -2,5 +2,7 @@ append, preppend, insertBefore, insertAfter
 
 append and prepend, put the whole element in as text, the HTML that is
 the above add them as the first / last CHILD elements
+$('#family2').append("<div id='bruce'></div>");
 
-insertbefore and insertafter add them as siblings, same way of doing it
+insertBefore and insertAfter add them as siblings, same way of doing it
+$("<div id='family2'></div>").insertAfter('#family1');
