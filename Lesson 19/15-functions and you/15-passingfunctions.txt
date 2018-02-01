@@ -1,0 +1,5 @@
+A function passed into the jQuery object runs on document.ready, which occurs after the DOM has been loaded.
+
+Functions passed into the $() call are run AFTER THE DOM IS FINISHED
+
+Normally, scripts loaded in the <head> will execute where they are loaded, making them run before the <body> DOM is built
