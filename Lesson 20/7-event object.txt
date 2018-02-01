@@ -1,0 +1,9 @@
+in the callback, have the function take a parameter, that parameter is the event object
+
+can access various bits of info about the event, like the target of a click
+
+log this parameter to see what is available
+
+$( 'element' ).on( 'event', function( evt ) {
+    console.log( evt );
+});
