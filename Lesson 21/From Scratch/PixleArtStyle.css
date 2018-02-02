@@ -4,12 +4,46 @@ body {
   margin: 2vh 2vw;
 }
 
+.title{
+  height: 10vh;
+}
+
+.selectionArea{
+  height: 10vh;
+}
+
 .Art{
   display: flex;
   flex-flow: column;
   height: 100%;
+  width: 100%;
 }
 
 .canvas{
-  flex: 1 1 auto;
+  display: flex;
+  flex: 1;
+  max-width: 75vw;
+  max-height: 75vw;
+  width: 75vh;
+  height: 75vh;
+  min-width: 25vw;
+  min-height: 25vw;
+  flex-direction: column;
+  border: 3px solid Black;
+}
+
+.columnCell{
+  display: flex;
+  flex: 1;
+  margin: 0;
+}
+
+.rowBlock{
+  display: flex;
+  flex: 1;
+  margin: 0;
+}
+
+.footer{
+  height: 5vh;
 }
