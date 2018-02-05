@@ -5,11 +5,16 @@ body {
 }
 
 .title{
-  height: 10vh;
 }
 
 .selectionArea{
-  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  margin: 1vh;
+}
+
+.buttons{
+  margin: 2px;
 }
 
 .Art{
@@ -17,6 +22,7 @@ body {
   flex-flow: column;
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 .canvas{
@@ -30,8 +36,6 @@ body {
   max-height: 75vw;
   width: 75vh;
   height: 75vh;
-  min-width: 25vw;
-  min-height: 25vw;
   border: 3px solid Black;
 }
 
@@ -57,5 +61,4 @@ body {
 }
 
 .footer{
-  height: 5vh;
 }

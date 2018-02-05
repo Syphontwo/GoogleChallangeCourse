@@ -1,4 +1,7 @@
-function updateCanvas(){
+function updateCanvas(eventArgs){
+  if (typeof eventArgs !== 'undefined'){
+    eventArgs.preventDefault();
+  }
   var CellsSetting = Math.max($('.selectionForm input[name=cells]').val(), 1);
   var rows = setRows(CellsSetting, CellsSetting, $('#userArt'));
 }
@@ -77,12 +80,20 @@ function randomTitle(){
 }
 
 function init(){
-  $('.selectionForm input[name=cells]').change(updateCanvas);
+  $('.selectionForm').submit(updateCanvas);
   $(document).mousedown(function(){mouseIsDown = true;})
   $(document).mouseup(function(){mouseIsDown = false;})
 
   $('.canvas').on('click', changeColor);
   $('.canvas').on('mouseenter', '*', changeColor);
+
+  $('#resetButton').click(function(){
+    //IF IN CODE PEN USE
+    //window.location.href = window.location.href;
+    //OTHERWISE
+    window.location.reload();
+  });
+
 
   $('.selectionForm input[name=cells]').val(50);
   $('.selectionForm input[name=color]').val('#6B5B95');
