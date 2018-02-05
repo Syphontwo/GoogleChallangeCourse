@@ -22,14 +22,26 @@ body {
 .canvas{
   display: flex;
   flex: 1;
+  flex-direction: column;
+}
+
+#userArt{
   max-width: 75vw;
   max-height: 75vw;
   width: 75vh;
   height: 75vh;
   min-width: 25vw;
   min-height: 25vw;
-  flex-direction: column;
   border: 3px solid Black;
+}
+
+#titleArt{
+  max-width: 100vw;
+  max-height: 10vw;
+  width: 75vw;
+  height: 10vh;
+  min-width: 50vw;
+  min-height: 5vw;
 }
 
 .columnCell{
