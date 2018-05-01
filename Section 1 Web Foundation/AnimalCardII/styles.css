@@ -1,0 +1,50 @@
+#card{
+  width: 300px;
+  box-shadow: 5px 5px 1px rgb(240,240,240);
+  border: 1px solid Grey;
+  background-image: url(https://i.pinimg.com/736x/7a/9a/8a/7a9a8af91fd0f3f89a01734185e76da5--wallpaper-schwarz-textures-patterns.jpg);
+  background-size: cover;
+}
+
+.BorderedDivider{
+  padding: 10px;
+  border: 1px solid Grey;
+}
+
+.animal-info{
+  margin-top: 10px;
+}
+
+.AnimalHeading{
+ margin-top: 0px;
+ margin-bottom: 10px;
+ font-size: 2em;
+}
+
+.CardImage{
+  width: 300px;
+  height: 200px;
+  border: 1px solid Grey;
+}
+
+#interesting-fact{
+  margin-top: 0px;
+  font-style: italic;
+}
+
+#facts{
+  padding: 0;
+  list-style-type: none;
+}
+
+.FactLabel{
+  font-weight: bold;
+}
+
+#summary{
+  margin-bottom: 0px;
+}
+
+.animal-info{
+  color: white;
+}
