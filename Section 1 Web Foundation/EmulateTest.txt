@@ -1,0 +1,12 @@
+Chrome developer tools has an emulator for many different devices.
+
+It's the icon that looks vaguely like a phone at the top of the dev panel.
+
+
+Turn on Dev mode on the android device
+Turn on USB debugging
+Chrome Canary (desktop)
+Chrom beta (device)
+
+Chrome inspect while phone has website open
+can then inspect the mobile pages from a dev machine, even screen cast
