@@ -1,0 +1,12 @@
+DIPs = Device Independent Pixels
+  These help with retina displays and the like
+Hardware Pixels - actual specced
+
+DPR - device Pixel Ratio
+  DIP / Hardware   1 dimensional
+
+Don't forget to set the viewport size to help with consistency
+The following command sets CSS to the same as DIPs
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+setting max-width: 100%; for img, embed, object, video is a good idea on almost all pages

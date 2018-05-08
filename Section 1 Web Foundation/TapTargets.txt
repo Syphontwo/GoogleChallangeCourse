@@ -1,0 +1,8 @@
+48px wide by 48px tall
+
+WITH ANYTHING THAT IS INTERACTIVE MAKE THAT A MIN
+
+.TapTarget {
+  min-width: 48px;
+  min-height: 48px;
+}
