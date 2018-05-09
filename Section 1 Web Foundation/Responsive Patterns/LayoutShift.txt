@@ -1,0 +1,7 @@
+a little more complex usage of flexes, it shifts items around entirely and
+works well with nested divs.  This requires a lot more planning
+
+use ORDER to make what you want
+
+default order is 0, so negative numbers can be used to push things before the
+default

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mostly Fluid - Quiz</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+      /*
+      These are the default styles. No need to change these.
+      */
+      @import url(https://fonts.googleapis.com/css?family=Roboto);
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .title {
+        font-size: 2.5em;
+        text-align: center;
+      }
+
+      .box {
+        min-height: 150px;
+      }
+
+      .dark_blue {
+        background-color: #2A457A;
+        color: #efefef;
+        order: 0;
+      }
+
+      .light_blue {
+        background-color: #099DD9;
+        order: 1;
+      }
+
+      .green {
+        background-color: #0C8542;
+        order: 2;
+      }
+
+      .lime {
+        background-color: rgb(179, 210, 52);
+        order: 3;
+      }
+
+      .seafoam {
+        background-color: rgb(77, 190, 161);
+        order: 4;
+      }
+
+      .red {
+        background-color: #EC1D3B;
+        order: 5;
+      }
+
+      .orange {
+        background-color: #F79420;
+        order: 6;
+      }
+    </style>
+    <style type="text/css">
+      /*
+      These are the responsive styles. Throw some breakpoints in here!
+      */
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .box {
+        width: 100%;
+      }
+
+      @media screen and (min-width: 400px) {
+        .light_blue, .green {
+          width: 50%;
+        }
+      }
+      @media screen and (min-width: 550px) {
+        .light_blue, .green {
+          width: 50%;
+        }
+        .red {
+          width: 34%;
+          order: 6;
+        }
+        .orange {
+          width: 66%;
+          order: 5;
+        }
+      }
+      @media screen and (min-width: 800px) {
+        .container{
+          width: 800px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box dark_blue"></div>
+      <div class="box light_blue"></div>
+      <div class="box green"></div>
+      <div class="box red"></div>
+      <div class="box orange"></div>
+    </div>
+  </body>
+</html>

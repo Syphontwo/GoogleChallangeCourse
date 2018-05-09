@@ -1,0 +1,18 @@
+link a stylesheet using a query to use different ones for different media
+
+small files, more requests
+<link rel"stylesheet" media="screen and (min-width:500px)" href="over500.css">
+
+print is the only other media to worry about
+
+larger files, less requests
+@media screen and (min-width: 500px) {
+  body {
+    CSS HERE
+  }
+}
+
+DON'T USE - @import url("over500.css") only screen and (min-width: 500px);
+
+Rules Stack in standard CSS rule precedence, i.e. if 2 rules match,
+both apply

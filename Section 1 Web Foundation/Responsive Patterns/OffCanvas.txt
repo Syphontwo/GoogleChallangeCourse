@@ -1,0 +1,39 @@
+Less used content (like navbars) are hidden off screen
+
+such as hiding behind a "hamburger" menu
+
+html, body, main {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  transform: translate(-300px, 0);  //this moves it offscreen
+  transition: transform 0.3s ease;  //this animates it in
+}
+
+// use this with a bit of javascript onclick event
+// menu.addEventListener('click', function(e) {drawer.classList.toggle('open'); e.stopPropagation();})
+nav.open {
+  transform: translate(0,0);  //add this class to the div to animate it opening
+}
+
+
+//with a media query
+@media screen and (min-width: 600px){
+  nav {
+    position: relative;
+    transform: translate(0,0); //this one does not animate
+  }
+  body {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  main {
+    width: auto;
+    flex-grow: 1; //allow the main element to grow and take up remaining space after nav
+  }
+}
