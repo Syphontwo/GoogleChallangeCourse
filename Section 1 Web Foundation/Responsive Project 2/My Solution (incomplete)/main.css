@@ -12,7 +12,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  margin: 0;
+  margin: 0; 
 }
 
 header, nav, footer, section, article, div {
@@ -29,7 +29,7 @@ ul {
 /*
  *
  * Common
- *
+ * 
  */
 
 .news__more {
@@ -49,27 +49,23 @@ ul {
 .header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
   min-height: 56px;
-  max-width: 100%;
   transition: min-height 0.3s;
 }
 
 .header__inner {
-  width: 800px;
-  max-width: 100%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .header__logo {
   height: 72px;
-  max-width: 100%;
   margin-right: 1em;
   vertical-align: top;
   margin-top: 12px;
 }
 
 .header__title {
-  max-width: 100%;
   font-weight: 300;
   font-size: 4em;
   margin: 0.5em 0.25em;
@@ -85,8 +81,7 @@ ul {
  */
 
 .nav {
-  width: 800px;
-  max-width: 100%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -104,14 +99,13 @@ ul {
   text-align: center;
   line-height: 24px;
   padding: 24px;
-  min-width: 48px;
-  min-height: 48px;
   text-transform: uppercase;
 }
 
 .nav a {
   text-decoration: none;
   color: #616161;
+  padding: 1.5em;
 }
 
 .nav a:hover {
@@ -128,8 +122,7 @@ ul {
 
 main {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-  width: 800px;
-  max-width: 100%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -148,13 +141,11 @@ main {
  */
 
 .hero {
-  float: left;
-  width: 480px;
+  width: 100%;
   position: relative;
   background-image: url("./images/dog.jpg");
   background-size: cover;
   height: 300px;
-  max-width: 100%;
 }
 
 .hero article {
@@ -165,7 +156,6 @@ main {
   bottom: 0;
   height: 40%;
   width: 100%;
-  max-width: 100%;
   color: #fff;
   padding: 1em;
 }
@@ -178,12 +168,10 @@ main {
  */
 
 .top-news {
-  overflow: hidden;
-  max-width: 100%;
-  min-width: 320px;
-  height: 300px;
+  max-height: 300px;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
+  width: 100%;
 }
 
 .news__title {
@@ -210,6 +198,7 @@ main {
 .top-news__item a {
   text-decoration: none;
   color: #666;
+  padding: 1.5em inherit;
 }
 
 .top-news__item a:hover,
@@ -225,10 +214,8 @@ main {
  */
 
 .scores {
-  float: left;
-  max-width: 100%;
-  width: 480px;
   padding-top: 1em;
+  flex-grow: 1;
 }
 
 .scores__table {
@@ -238,17 +225,13 @@ main {
 
 .scores__table th,
 .scores__table td {
-  padding: 1em;
+  padding: 1em; 
 }
 
 .scores__table th {
   color: #fff;
   font-weight: 300;
   background-color: #78909C;
-}
-
-.scores__table tbody tr th:nth-child(3) {
-  text-align: right;
 }
 
 .scores__table tr:nth-child(odd) td {
@@ -272,13 +255,6 @@ main {
   text-align: center;
 }
 
-@media screen and (max-width: 400px){
-  .scores_table td.scores_date__location{
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-
 /*
  *
  * Weather
@@ -286,9 +262,7 @@ main {
  */
 
 .weather {
-  overflow: hidden;
-  max-width: 100%;
-  min-width: 320px;
+  flex-grow: 1;
   padding: 1em;
 }
 
@@ -338,11 +312,12 @@ main {
 
 /*
  *
- * Weather
+ * Recent News
  *
  */
 
 .recent-news {
+  flex-grow: 1;
   clear: both;
   padding: 1em;
 }
@@ -365,6 +340,7 @@ main {
 .snippet__title a {
   text-decoration: none;
   color: #666;
+  padding: 1.5em inherit;
 }
 
 .snippet__title a:hover,
@@ -393,4 +369,5 @@ footer li {
 footer a {
   text-decoration: none;
   color: #333;
+  padding: 1.5em;
 }

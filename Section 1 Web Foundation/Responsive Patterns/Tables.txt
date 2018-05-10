@@ -1,0 +1,38 @@
+Hidden Columns:
+  Hide columns as data viewport gets smaller
+  use display: none to hide stuff
+
+problem with that is hiding content from a user
+
+No More Tables:
+  At smaller sizes, tables are collapsed into a list instead of a table
+  At smaller sizes
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+    thead tr {
+    //display: none; this would cause accessibility issues with screen readers
+    //below block is how you can hide it without causing accessibility issues
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+    td {
+      position: relative;
+      passing-left: 50%;
+    }
+    td:before {
+      position: absolute;
+      left: 6px;
+      content: attr(data-th);
+      font-weight: bold;
+    }
+
+
+  Contained Scrolling:
+    At smaller sizes, table will stay the same size, but will scroll
+    Wrap table in a div
+    div.containedtable {
+      width: 100%;
+      overflow-x: auto;
+    }

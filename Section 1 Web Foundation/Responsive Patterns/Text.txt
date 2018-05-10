@@ -1,0 +1,7 @@
+Try to keep lines of text approximately 65 characters wide
+
+base font 16px, 1.2em to be safe
+
+body{
+  font-size: 1.2em;
+}
