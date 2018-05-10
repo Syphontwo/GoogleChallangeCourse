@@ -1,0 +1,22 @@
+.container{
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+}
+
+.one{
+  background-color: red;
+  float: left;
+  width: 128px;
+  height: 128px;
+}
+.two{
+  background-color: blue;
+  overflow: hidden;
+  text-align: right;
+}
+.three{
+  background-color: green;
+  overflow: hidden;
+  text-align: center;
+}
