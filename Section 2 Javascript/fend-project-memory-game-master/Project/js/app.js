@@ -63,7 +63,6 @@ function shuffle(array) {
 }
 
 function flipCard (eventArgs){
-  //if ($(eventArgs.target).hasClass('match')){ return; } //do nothing if it is already matched
 
   $(eventArgs.target).addClass('open show');
   $(eventArgs.target).removeClass('mismatch'); //to indicate it is now selected for the next pair
