@@ -7,9 +7,20 @@
 
 ## TODO
 
-- [ ] Get Started
-- [ ] check out some [css ideas](https://www.creativebloq.com/inspiration/css-animation-examples).
-- [ ] Project specific instructions are at the [Udacity Classroom](https://classroom.udacity.com/me).
+- [x] Get Started
+- [x] Complete Udacity bare minimum requirements
+- [ ] Check out some [css ideas](https://www.creativebloq.com/inspiration/css-animation-examples).
+- [ ] Animate card interactions
+  - [ ] Flip
+  - [ ] Match
+  - [ ] Mismatch
+- [ ] Animate Game Interactions
+  - [ ] Shuffle
+  - [ ] Win
+  - [ ] Score Update
+- [ ] Make the scores at the top prettier
+- [ ] Variable numbers of cards?
+- [x] Project specific instructions are at the [Udacity Classroom](https://classroom.udacity.com/me).
 
 ## Contributing
 
