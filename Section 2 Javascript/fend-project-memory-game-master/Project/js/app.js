@@ -31,6 +31,7 @@ function startGame(){
   startime = (new Date).getTime();
   timerRunning = true;
   moves = 0;
+
   shuffle(deck);
 
   for (var i = 0; i < deck.length; i++) {
@@ -38,6 +39,8 @@ function startGame(){
     thisCard.removeClass(); //remove all classes
     thisCard.addClass('fa ' + deck[i] ); //add the class from the array and fa
   }
+
+  updateScore();
 }
 
 /*
@@ -127,7 +130,7 @@ function checkWinCondition(){
 function init(){
   $('.fa-repeat').click(startGame);
   $('.deck li').click(flipCard);
-  $('#winmodal .close').click(function(){ $('#winmodal').hide(); })
+  $('#winmodal .close').click(function(){ $('#winmodal').hide(); startGame(); })
   runTimer();
   startGame();
 }

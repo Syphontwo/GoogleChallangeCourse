@@ -2,8 +2,25 @@
 
 ## Table of Contents
 
+* [How to Play](#How to Play)
+* [Dependencies](#Dependencies)
 * [TODO](#TODO)
 * [Contributing](#contributing)
+
+##How to Play
+The game will begin immediately upon load.
+
+Click any of the squares to see the card underneath.  Once two cards are clicked, if they match, they will turn green and remain visible.  If they do not match, they will turn red and remain visible only for a moment, then they will disappear again.
+
+Scoring is based purely on the number of moves, so take your time and CONCENTRATE!
+
+##Dependencies
+
+* [jquery v3.3.1](https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js)
+* ECMAScript 5
+* tested on Chrome 67.0.3396.79 and IE 11.0.9600.19002
+  * not as pretty in IE 11, but functional
+
 
 ## TODO
 
