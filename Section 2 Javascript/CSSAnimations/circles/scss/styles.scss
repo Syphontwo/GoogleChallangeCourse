@@ -6,6 +6,10 @@
 	background-color: #ededed;
 }
 
+.bump{
+	position: absolute;
+}
+
 .ring {
 	max-width: 15rem;
 	width: 100%;
@@ -20,7 +24,7 @@
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
-	transform-origin: 170px 170px;
+	transform-origin: 50% 50%;
 	will-change: transform;
 }
 
@@ -40,6 +44,37 @@
 }
 
 .ring4 {
+	stroke-dasharray: 300px;
+	animation-delay: -0.45s;
+}
+
+.bump {
+	fill: none;
+	animation-name: bump;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	transform-origin: 50% 50%;
+	will-change: transform;
+	transform: scale(.75);
+}
+
+.bump1 {
+	stroke-dasharray: 550px;
+	animation-delay: -0.0s;
+}
+
+.bump2 {
+	stroke-dasharray: 500px;
+	animation-delay: - 0.15s;
+}
+
+.bump3 {
+	stroke-dasharray: 450px;
+	animation-delay: -0.30s;
+}
+
+.bump4 {
 	stroke-dasharray: 300px;
 	animation-delay: -0.45s;
 }
