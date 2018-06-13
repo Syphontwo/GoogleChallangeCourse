@@ -12,53 +12,57 @@ $pink: #E2007C;
 $orange: #FE5D26;
 $yellow: #F2C078;
 
+$num-of-circles: 12;
+
 
 body{
 	background-color: $black;
 }
 
 .background{
+	display: flex;
+	align-items: stretch;
 	background-color: $black;
+	width: 100%;
+	height: 100%;
+	max-width: 100vw;
+	max-height: 100vh;
+	background-color: $yellow;
 }
 
 .large-circles{
+	flex-grow: 1;
 	circle{
 		fill: none;
-		animation-name: large-spin;
+		animation-name: large-spin-clockwise;
 		animation-iteration-count: infinite;
 		animation-timing-function: linear;
 		transform-origin: 50% 50%;
 		will-change: transform;
 
-		&:nth-of-type(1) {
-
-		}
-
-		&:nth-of-type(2) {
-
-		}
-
-		&:nth-of-type(3) {
-
-		}
-
-		&:nth-of-type(4) {
-
-		}
-
-		@for $i from 1 through 4 {
+		@for $i from 1 through $num-of-circles {
 			&:nth-of-type(#{$i}) {
-				animation-delay: -#{$i * 0.15}s;
-				animation-duration: #{$i + 10}s;
-				transform-origin: #{$i * 10 + 50}% #{50 - $i * 10}%;
+				//animation-delay: -#{$i * (30 / $num-of-circles)}s;
+				animation-duration: #{$i * (30 / $num-of-circles) + 30}s;
+				transform-origin: #{($i % 2 * 2 - 1) * $i * (90 / $num-of-circles) + 180}px #{($i % 2 * 2 - 1) * $i * -1 * (90 / $num-of-circles) + 180}px;
+				@if ($i % 3 == 0){
+					&:nth-of-type(#{$i}){
+						animation-name: large-spin-counter-clockwise;
+					}
+				}
 			}
 		}
 	}
 }
 
-@keyframes large-spin{
+@keyframes large-spin-clockwise{
 	100%{
 		transform: rotate(360deg);
+	}
+}
+@keyframes large-spin-counter-clockwise{
+	100%{
+		transform: rotate(-360deg);
 	}
 }
 
