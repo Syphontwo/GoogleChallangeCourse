@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-* [How to Play](#How to Play)
+* [How to Play](#How)
 * [Dependencies](#Dependencies)
 * [TODO](#TODO)
 * [Contributing](#contributing)
